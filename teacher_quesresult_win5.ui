@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Teacher_quesResult_win5</class>
+ <widget class="QDialog" name="Teacher_quesResult_win5">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>807</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>100</y>
+     <width>291</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>作答情况统计</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="InfmationTable">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>631</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+border-width: 2px;
+border-color: rgb(0, 0, 0);
+border-style: solid;
+background-color:rgb(239, 239, 239);
+</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Choice</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TimeUsed</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="ExitBtn">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>740</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="staticsTable">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>220</y>
+     <width>251</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+border-width: 2px;
+border-color: rgb(0, 0, 0);
+border-style: solid;
+background-color:rgb(239, 239, 239);
+</string>
+   </property>
+   <row>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>None</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Count</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>material/back_ground.jpg</file>
+        <file>material/thunder.png</file>
+        <file>material/Tunder.png</file>
+        <file>material/StuBack.png</file>
+        <file>material/StuBack2.png</file>
+        <file>material/Add.png</file>
+        <file>material/AdminBack.png</file>
+        <file>material/Delete.png</file>
+        <file>material/StuBack0.png</file>
+        <file>material/TchrBack0.png</file>
+        <file>material/QuesBack.png</file>
+        <file>material/TchrBack.png</file>
+        <file>material/yes.png</file>
+        <file>material/InfoMsg.png</file>
+        <file>material/Exit.png</file>
+        <file>material/weavelogo2.png</file>
+    </qresource>
+</RCC>

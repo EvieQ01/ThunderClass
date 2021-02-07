@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>student_ques_win3</class>
+ <widget class="QDialog" name="student_ques_win3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 12pt &quot;Comic Sans MS&quot;;</string>
+  </property>
+  <widget class="QTextBrowser" name="ProblemTxt">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>411</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent;
+border-color:transparent;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ConfirmAnswBtn">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>480</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent;</string>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>320</y>
+     <width>351</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,1,1">
+    <item>
+     <widget class="QRadioButton" name="ChoiceABtn">
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ChoiceBtnGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="ChoiceBBtn">
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ChoiceBtnGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="ChoiceCBtn">
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ChoiceBtnGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="ChoiceDBtn">
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">ChoiceBtnGroup</string>
+      </attribute>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="ChoiceBtnGroup"/>
+ </buttongroups>
+</ui>
